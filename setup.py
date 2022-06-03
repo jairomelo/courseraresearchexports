@@ -37,13 +37,15 @@ setup(
     install_requires=[
         'argcomplete>=1.4.1',
         'courseraoauth2client>=0.0.1',
-        'requests>=2.7.0,<2.11',
+        'requests~=2.27.1',
         'docker-py>=1.2.3',
         'tqdm>=4.8.4',
         'tabulate>=0.7.5',
         'python-dateutil>=2.5.3',
         'SQLAlchemy>=1.0.15',
-        'psycopg2~=2.9.3'
+        'psycopg2-binary~=2.8.5',
+        'psycopg2~=2.9.3',
+        'ruamel.yaml~=0.17.10',
     ],
     test_suite='nose.collector',
     tests_require=['nose', 'nose-cover3'],
