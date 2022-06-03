@@ -43,7 +43,7 @@ setup(
         'tabulate>=0.7.5',
         'python-dateutil>=2.5.3',
         'SQLAlchemy>=1.0.15',
-        'psycopg2>=2.6.2'
+        'psycopg2~=2.9.3'
     ],
     test_suite='nose.collector',
     tests_require=['nose', 'nose-cover3'],
